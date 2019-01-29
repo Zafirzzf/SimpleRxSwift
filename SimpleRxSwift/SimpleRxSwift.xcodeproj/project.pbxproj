@@ -13,6 +13,20 @@
 		18220C0D21FB10B5006A21FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18220C0C21FB10B5006A21FA /* Assets.xcassets */; };
 		18220C1021FB10B5006A21FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18220C0E21FB10B5006A21FA /* LaunchScreen.storyboard */; };
 		18220C1B21FB10B6006A21FA /* SimpleRxSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18220C1A21FB10B6006A21FA /* SimpleRxSwiftTests.swift */; };
+		1822135222001357006A21FA /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1822135122001357006A21FA /* Observable.swift */; };
+		1822135422001369006A21FA /* ObservableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1822135322001369006A21FA /* ObservableType.swift */; };
+		1822135622001391006A21FA /* ObservableConvertibleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1822135522001391006A21FA /* ObservableConvertibleType.swift */; };
+		18221358220015A2006A21FA /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18221357220015A2006A21FA /* Disposable.swift */; };
+		1822135A220015EA006A21FA /* Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18221359220015EA006A21FA /* Create.swift */; };
+		1822135C2200163B006A21FA /* AnyObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1822135B2200163B006A21FA /* AnyObserver.swift */; };
+		1822135E22001644006A21FA /* ObserverType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1822135D22001643006A21FA /* ObserverType.swift */; };
+		1822136022001693006A21FA /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1822135F22001693006A21FA /* Event.swift */; };
+		1822136222001EB7006A21FA /* Producer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1822136122001EB7006A21FA /* Producer.swift */; };
+		182213642200203F006A21FA /* Cancelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182213632200203F006A21FA /* Cancelable.swift */; };
+		182213662200293F006A21FA /* Sink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182213652200293F006A21FA /* Sink.swift */; };
+		18221470220041A3006A21FA /* NopDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1822146F220041A3006A21FA /* NopDisposable.swift */; };
+		18221472220042A3006A21FA /* Disposables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18221471220042A3006A21FA /* Disposables.swift */; };
+		1822147622006032006A21FA /* Just.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1822147522006032006A21FA /* Just.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +50,20 @@
 		18220C1621FB10B5006A21FA /* SimpleRxSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleRxSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18220C1A21FB10B6006A21FA /* SimpleRxSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleRxSwiftTests.swift; sourceTree = "<group>"; };
 		18220C1C21FB10B6006A21FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1822135122001357006A21FA /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		1822135322001369006A21FA /* ObservableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableType.swift; sourceTree = "<group>"; };
+		1822135522001391006A21FA /* ObservableConvertibleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableConvertibleType.swift; sourceTree = "<group>"; };
+		18221357220015A2006A21FA /* Disposable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disposable.swift; sourceTree = "<group>"; };
+		18221359220015EA006A21FA /* Create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Create.swift; sourceTree = "<group>"; };
+		1822135B2200163B006A21FA /* AnyObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObserver.swift; sourceTree = "<group>"; };
+		1822135D22001643006A21FA /* ObserverType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverType.swift; sourceTree = "<group>"; };
+		1822135F22001693006A21FA /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		1822136122001EB7006A21FA /* Producer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Producer.swift; sourceTree = "<group>"; };
+		182213632200203F006A21FA /* Cancelable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cancelable.swift; sourceTree = "<group>"; };
+		182213652200293F006A21FA /* Sink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sink.swift; sourceTree = "<group>"; };
+		1822146F220041A3006A21FA /* NopDisposable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NopDisposable.swift; sourceTree = "<group>"; };
+		18221471220042A3006A21FA /* Disposables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disposables.swift; sourceTree = "<group>"; };
+		1822147522006032006A21FA /* Just.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Just.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +105,7 @@
 		18220C0421FB10B3006A21FA /* SimpleRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				18220C2521FB115A006A21FA /* Classes */,
 				18220C0521FB10B3006A21FA /* AppDelegate.swift */,
 				18220C0721FB10B3006A21FA /* ViewController.swift */,
 				18220C0921FB10B3006A21FA /* Main.storyboard */,
@@ -94,6 +123,27 @@
 				18220C1C21FB10B6006A21FA /* Info.plist */,
 			);
 			path = SimpleRxSwiftTests;
+			sourceTree = "<group>";
+		};
+		18220C2521FB115A006A21FA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18221359220015EA006A21FA /* Create.swift */,
+				1822147522006032006A21FA /* Just.swift */,
+				1822135B2200163B006A21FA /* AnyObserver.swift */,
+				182213632200203F006A21FA /* Cancelable.swift */,
+				1822135F22001693006A21FA /* Event.swift */,
+				1822135122001357006A21FA /* Observable.swift */,
+				1822135322001369006A21FA /* ObservableType.swift */,
+				1822135522001391006A21FA /* ObservableConvertibleType.swift */,
+				1822135D22001643006A21FA /* ObserverType.swift */,
+				1822136122001EB7006A21FA /* Producer.swift */,
+				182213652200293F006A21FA /* Sink.swift */,
+				1822146F220041A3006A21FA /* NopDisposable.swift */,
+				18221357220015A2006A21FA /* Disposable.swift */,
+				18221471220042A3006A21FA /* Disposables.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +247,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1822135E22001644006A21FA /* ObserverType.swift in Sources */,
+				18221470220041A3006A21FA /* NopDisposable.swift in Sources */,
+				182213662200293F006A21FA /* Sink.swift in Sources */,
+				182213642200203F006A21FA /* Cancelable.swift in Sources */,
+				18221472220042A3006A21FA /* Disposables.swift in Sources */,
+				1822135622001391006A21FA /* ObservableConvertibleType.swift in Sources */,
+				1822135C2200163B006A21FA /* AnyObserver.swift in Sources */,
+				1822136222001EB7006A21FA /* Producer.swift in Sources */,
+				18221358220015A2006A21FA /* Disposable.swift in Sources */,
+				1822136022001693006A21FA /* Event.swift in Sources */,
 				18220C0821FB10B3006A21FA /* ViewController.swift in Sources */,
+				1822147622006032006A21FA /* Just.swift in Sources */,
+				1822135222001357006A21FA /* Observable.swift in Sources */,
+				1822135422001369006A21FA /* ObservableType.swift in Sources */,
+				1822135A220015EA006A21FA /* Create.swift in Sources */,
 				18220C0621FB10B3006A21FA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +426,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SimpleRxSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,6 +444,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SimpleRxSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

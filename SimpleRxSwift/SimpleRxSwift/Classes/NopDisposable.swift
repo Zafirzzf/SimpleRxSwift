@@ -14,6 +14,6 @@ struct NopDisposable: Disposable {
     fileprivate init() {}
     
     func dispose() {
-        
+        // Do nothing
     }
 }

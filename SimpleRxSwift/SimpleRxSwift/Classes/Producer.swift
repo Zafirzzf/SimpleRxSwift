@@ -25,8 +25,11 @@ class Producer<E>: Observable<E> {
 }
 
 fileprivate class SinkDisposer: Cancelable {
-    
-//    private var _state = dispos
+    enum DisposeState: Int32 {
+        case disposed = 1
+        case sinkAndSubscriptionSet = 2
+    }
+    private var _state = dispos
     
     var isDisposed: Bool {
         return false
@@ -36,8 +39,5 @@ fileprivate class SinkDisposer: Cancelable {
         
     }
     
-    enum DisposeState: Int32 {
-        case disposed = 1
-        case sinkAndSubscriptionSet = 2
-    }
+  
 }

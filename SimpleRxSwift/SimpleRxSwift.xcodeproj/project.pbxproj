@@ -27,6 +27,8 @@
 		18221470220041A3006A21FA /* NopDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1822146F220041A3006A21FA /* NopDisposable.swift */; };
 		18221472220042A3006A21FA /* Disposables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18221471220042A3006A21FA /* Disposables.swift */; };
 		1822147622006032006A21FA /* Just.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1822147522006032006A21FA /* Just.swift */; };
+		1822147822006447006A21FA /* DisposeBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1822147722006447006A21FA /* DisposeBag.swift */; };
+		1822147A22006489006A21FA /* DisposeBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1822147922006489006A21FA /* DisposeBase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,8 @@
 		1822146F220041A3006A21FA /* NopDisposable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NopDisposable.swift; sourceTree = "<group>"; };
 		18221471220042A3006A21FA /* Disposables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disposables.swift; sourceTree = "<group>"; };
 		1822147522006032006A21FA /* Just.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Just.swift; sourceTree = "<group>"; };
+		1822147722006447006A21FA /* DisposeBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisposeBag.swift; sourceTree = "<group>"; };
+		1822147922006489006A21FA /* DisposeBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisposeBase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,8 @@
 				182213652200293F006A21FA /* Sink.swift */,
 				1822146F220041A3006A21FA /* NopDisposable.swift */,
 				18221357220015A2006A21FA /* Disposable.swift */,
+				1822147722006447006A21FA /* DisposeBag.swift */,
+				1822147922006489006A21FA /* DisposeBase.swift */,
 				18221471220042A3006A21FA /* Disposables.swift */,
 			);
 			path = Classes;
@@ -249,6 +255,7 @@
 			files = (
 				1822135E22001644006A21FA /* ObserverType.swift in Sources */,
 				18221470220041A3006A21FA /* NopDisposable.swift in Sources */,
+				1822147A22006489006A21FA /* DisposeBase.swift in Sources */,
 				182213662200293F006A21FA /* Sink.swift in Sources */,
 				182213642200203F006A21FA /* Cancelable.swift in Sources */,
 				18221472220042A3006A21FA /* Disposables.swift in Sources */,
@@ -263,6 +270,7 @@
 				1822135422001369006A21FA /* ObservableType.swift in Sources */,
 				1822135A220015EA006A21FA /* Create.swift in Sources */,
 				18220C0621FB10B3006A21FA /* AppDelegate.swift in Sources */,
+				1822147822006447006A21FA /* DisposeBag.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
